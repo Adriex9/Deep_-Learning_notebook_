@@ -1,4 +1,4 @@
-Dog and Cat Breed Classification with Deep Learning
+Dog and Cat Breed Classification with Deep Learning on The Oxford-IIIT Pet dataset
 This project involves building a deep learning model for classifying dog and cat breeds using images. The model leverages the VGG16 architecture with transfer learning to achieve high accuracy on a dataset containing multiple dog and cat breeds.
 
 Project Overview
