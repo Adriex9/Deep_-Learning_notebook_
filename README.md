@@ -6,7 +6,7 @@ It leverages **transfer learning with VGG16** to achieve high accuracy on the **
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Dataset**: Images of 37 dog and cat breeds.
 - **Goal**: Predict the correct breed based on a given image.
@@ -14,7 +14,7 @@ It leverages **transfer learning with VGG16** to achieve high accuracy on the **
 
 ---
 
-## 🧹 Data Handling
+## Data Handling
 
 - Used the **PIL** library to handle image data and byte strings.
 - Applied **data augmentation** to improve generalization.
@@ -28,7 +28,7 @@ It leverages **transfer learning with VGG16** to achieve high accuracy on the **
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - Started with a **simple convolutional model**, then transitioned to **VGG16 (pre-trained on ImageNet)**.
 - Fine-tuned the model with:
@@ -39,7 +39,7 @@ It leverages **transfer learning with VGG16** to achieve high accuracy on the **
   - **40 initial epochs**
   - Then **30 additional epochs** with the **last 10 layers unfrozen**
 
-### 🧱 Architecture Diagram  
+### Architecture Diagram  
 ![Model Architecture](https://github.com/user-attachments/assets/5acdac7a-e264-4e5d-99a0-c322fa178e48)
 
 ---
@@ -54,15 +54,15 @@ It leverages **transfer learning with VGG16** to achieve high accuracy on the **
 
 ---
 
-## 🔍 Model Interpretability
+## Model Interpretability
 
-### 🎯 Grad-CAM Heatmap  
+### Grad-CAM Heatmap  
 Used Grad-CAM to visualize model attention on input images.  
 ![GradCAM](https://github.com/user-attachments/assets/a8d70f06-8f99-4aab-969b-5b027457cce4)
 
 ---
 
-## 📉 Evaluation
+## Evaluation
 
 ### Confusion Matrix  
 Clearly shows high performance, with minor confusion between visually similar breeds like **Siamese** and **Birman**.  
@@ -70,7 +70,7 @@ Clearly shows high performance, with minor confusion between visually similar br
 
 ---
 
-## 🏁 Final Results
+## Final Results
 
 - Achieved **~84% accuracy** on validation data.
 - Robust against overfitting with early stopping and fine-tuning.
@@ -79,7 +79,7 @@ Clearly shows high performance, with minor confusion between visually similar br
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - `TensorFlow`
 - `Keras`
